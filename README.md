@@ -8,10 +8,15 @@ Dependency
 
 Usage
 -----
-	<input type="text" class="number" />
+	<input type="text" class="number1" />
+	<input type="text" class="number2" />
 
-	$('input.number').numericfield(option);
+	$('input.number1').numericfield(option);
+	$('input.number2').numericfield({
+		allow_decimal: true
+	});
 
 or just:
 
 	<input type="text" data-type="number" />
+	<input type="text" data-type="number" data-decimal="true" />
