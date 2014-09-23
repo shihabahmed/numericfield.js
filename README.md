@@ -1,6 +1,5 @@
-NumericField
-============
-
+numericfield.js
+===============
 This plugin forces input boxes to allow only numbers with/without decimal places.
 
 Dependency
