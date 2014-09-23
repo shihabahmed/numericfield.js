@@ -8,4 +8,10 @@ Dependency
 
 Usage
 -----
+	<input type="text" class="number" />
+
 	$('input.number').numericfield(option);
+
+or just:
+
+	<input type="text" data-type="number" />

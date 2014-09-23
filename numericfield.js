@@ -1,8 +1,5 @@
-﻿
 ;(function ($) {
-
 	$.fn.extend({
-
 		numericfield: function (setting) {
 			return this.each(function() {
 				var elem = $(this);
@@ -61,5 +58,16 @@
 				});
 			});
 		}
+	});
+})(jQuery);
+
+
+;(function (j) {
+	j(function () {
+		j('[data-type=numeric], [data-type=number]').each(function (index, el) {
+			j(el).numericfield({
+				allow_decimal: j(el).data('decimal')
+			});
+		});
 	});
 })(jQuery);
