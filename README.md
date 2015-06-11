@@ -16,6 +16,8 @@ Usage
 		allow_decimal: true
 	});
 
+	$('input.number2').numericfield("destroy");
+
 or just:
 
 	<input type="text" data-type="number" />
